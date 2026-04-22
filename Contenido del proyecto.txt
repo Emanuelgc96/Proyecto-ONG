@@ -1,0 +1,59 @@
+NOMBRE DE LA ONG:
+
+*index.html Página de inicio. Presentación de la ONG, su misión y un resumen visual de sus programas o áreas de trabajo. 
+Head Completo (charset UTF-8,viewport y el title)
+Un solo <h1> de jerarquia
+Navegación: El <nav> con la lista <ul> y los enlaces a las otras 3 páginas.
+Etiquetas obligatorias: Imagenes(con su alt descriptivo.),Vínculo Interno (#id): El enlace (Ejemplo <a href="#mision"> que salta a la sección con id="mision".)
+
+*nosotros.html Historia de la organización, valores, equipo (pueden inventar nombres y roles) y un <dl> con datos institucionales clave. 
+Head Completo (charset UTF-8,viewport y el title)
+Un solo <h1> de jerarquia
+Navegación: El <nav> con la lista <ul> y los enlaces a las otras 3 páginas.
+Etiquetas obligatorias: <strong> <em> <dl> <aside> 
+
+*programas.html Al menos 3 programas o iniciativas de la ONG, cada uno con nombre, descripción, a quién está dirigido y cómo participar. 
+Head Completo (charset UTF-8,viewport y el title)
+Un solo <h1> de jerarquia
+Navegación: El <nav> con la lista <ul> y los enlaces a las otras 3 páginas.
+Etiquetas obligatorias: <section> <article> <ul> <ol>
+
+*contacto.html Información de contacto: dirección, teléfono (enlace tel:), email (enlace mailto:) y al menos un enlace externo a una red social ficticia. 
+Head Completo (charset UTF-8,viewport y el title)
+Un solo <h1> de jerarquia
+Navegación: El <nav> con la lista <ul> y los enlaces a las otras 3 páginas.
+Etiquetas obligatorias: (enlace tel:) (enlace mailto:) 
+Enlace Externo Seguro a una red ficticia: El link a una pagina con el el target="_blank" y el rel="noopener noreferrer".
+
+
+Estructura basica:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*NOMBRE DE LA ONG Y EN QUE SECCION SE ENCUENTRA</title> Ejemplo: Inicio | *NOMBRE DE LA ONG 
+</head>
+<body>
+    <header>
+        <h1>*NOMBRE DE LA ONG</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="programas.html">Programas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       *CONTENIDO DE LA SECCION
+    </main>
+
+    <footer>
+        <p>&copy; 2026 *NOMBRE DE LA ONG. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
