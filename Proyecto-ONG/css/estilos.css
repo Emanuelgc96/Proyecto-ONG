@@ -13,3 +13,10 @@ header h1 {
     margin-bottom: 15px; /* Le da un poquito de aire abajo antes del menú */
 }
 
+/*Menú de navegación*/
+nav ul {
+    display: flex;
+    justify-content: center; /* Centra todo el menú de navegación */
+    list-style: none;
+    gap: 25px;
+}
