@@ -7,4 +7,9 @@ body {
     font-size: 16px; /* Tamaño de la letra*/
 }
 
+/*Header*/
+header h1 {
+    text-align: center; /* Centra el texto del título principal */
+    margin-bottom: 15px; /* Le da un poquito de aire abajo antes del menú */
+}
 
