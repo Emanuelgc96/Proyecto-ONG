@@ -20,3 +20,30 @@ nav ul {
     list-style: none;
     gap: 25px;
 }
+
+/*Seccion Contacto*/
+/* Lista de contacto */
+.contacto-lista {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.contacto-lista li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Redes Sociales*/
+.redes-lista {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.redes-lista li {
+    display: inline-block;
+}
